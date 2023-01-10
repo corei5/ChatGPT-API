@@ -1,14 +1,26 @@
 # ChatGPT-API
 
+[![License](https://img.shields.io/github/license/terry3041/pyChatGPT.svg?color=green)](https://github.com/terry3041/pyChatGPT/blob/main/LICENSE)
+
+
 REST API for the extract information from ChatGPT chat in python.
 
 This API provides the ChatGPT chat output for a ``input``.
 
 ## Prerequisites
 
-We require a python version `3.7` or above.
+Please check requirements.txt file.
 
-Requirement by service:
+## Obtaining session_token
+
+1. Go to https://chat.openai.com/chat and open the developer tools by `F12`.
+2. Find the `__Secure-next-auth.session-token` cookie in `Application` > `Storage` > `Cookies` > `https://chat.openai.com`.
+3. Copy the value in the `Cookie Value` field.
+
+![image](https://user-images.githubusercontent.com/19218518/206170122-61fbe94f-4b0c-4782-a344-e26ac0d4e2a7.png)
+
+
+## Requirement by service:
 
 | Service                    | Requirement(s)    |
 |----------------------------|-------------------|
@@ -51,3 +63,11 @@ uvicorn app.main:app --host 0.0.0.0 --port 4321 --reload
 ## API Documentation
 After successfully running the application, check the documentation at `localhost:4321/docs`
 or `localhost:4321/redoc` (please adapt your `host:port` in case you configured them).
+
+
+## Insipration
+This project is inspired by
+
+-   [ChatGPT](https://github.com/acheong08/ChatGPT)
+-   [chatgpt-api](https://github.com/transitive-bullshit/chatgpt-api)
+-   [pyChatGPT](https://github.com/terry3041/pyChatGPT)
