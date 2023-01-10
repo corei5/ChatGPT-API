@@ -1,8 +1,8 @@
 # ChatGPT-API
 
-REST API for the extract information from ChatGPT in python.
+REST API for the extract information from ChatGPT chat in python.
 
-This API provides the ChatGPT output for a ``input``.
+This API provides the ChatGPT chat output for a ``input``.
 
 ## Prerequisites
 
