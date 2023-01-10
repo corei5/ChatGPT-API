@@ -13,7 +13,7 @@ class ChatGpt_Class:
         super().__init__()
 
     def ChatGpt_login(self):
-        session_token = ''
+        session_token = '' # Add auth with session token
         api = ChatGPT(session_token)  # auth with session token
         return api
 
