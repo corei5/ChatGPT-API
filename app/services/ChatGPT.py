@@ -13,7 +13,7 @@ class ChatGpt_Class:
         super().__init__()
 
     def ChatGpt_login(self):
-        session_token = '' # Add auth with session token
+        session_token = ''
         api = ChatGPT(session_token)  # auth with session token
         return api
 
@@ -23,8 +23,10 @@ class ChatGpt_Class:
             try:
                 resp = api.send_message(text)
                 return resp['message']
-            except:
+            except Exception as e:
+                print(e)
                 return "Getting error from ChatGpt"
-        except:
+        except Exception as e:
+            print(e)
             return "Not able to login in ChatGpt"
 
