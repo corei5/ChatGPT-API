@@ -24,10 +24,13 @@ Please check requirements.txt file.
 
 | Service                    | Requirement(s)    |
 |----------------------------|-------------------|
-| `/ChatGpt_API/chatgpt`          | `summarize the paper "The War on Drugs and HIV/AIDS How the Criminalization of Drug Use Fuels the Global Pandemic"`|
+| `/ChatGpt_API/chatgpt`          | `text: summarize the paper "The War on Drugs and HIV/AIDS How the Criminalization of Drug Use Fuels the Global Pandemic"`|
 
 
 ## Output Demo  (Example)
+
+```The paper "The War on Drugs and HIV/AIDS: How the Criminalization of Drug Use Fuels the Global Pandemic" argues that the criminalization of drug use has contributed to the spread of HIV/AIDS. The authors argue that criminalization makes it more difficult for people who use drugs to access harm reduction services like needle exchange programs, which can help prevent the spread of HIV. They also argue that criminalization leads to risky behavior, such as sharing needles, because people who use drugs are afraid to seek help. The authors argue that ending the criminalization of drug use and increasing access to harm reduction services would be an effective way to reduce the spread of HIV/AIDS.```
+
 ## Run in CMD (Example)
 
 ```commandline
