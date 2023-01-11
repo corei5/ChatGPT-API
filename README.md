@@ -9,7 +9,8 @@ This API provides the ChatGPT chat output for a ``input``.
 
 ## Prerequisites
 
-Please check requirements.txt file.
+1. Please check requirements.txt file.
+2. Latest version of google chrome
 
 ## Obtaining session_token
 
