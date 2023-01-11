@@ -10,7 +10,7 @@ This API provides the ChatGPT chat output for a ``input``.
 ## Prerequisites
 
 1. Please check requirements.txt file.
-2. Latest version of google chrome
+2. Latest version of google chrome driver
     - If you are not able to log in for the ChromeDriver, please check the error. expected error message: 'from session not created: This version of ChromeDriver only supports Chrome version 109. Current browser version is 108.0.5359.124' 
 
 ## Obtaining session_token
