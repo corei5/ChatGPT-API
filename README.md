@@ -26,7 +26,7 @@ This API provides the ChatGPT chat output for a ``input``.
 
 | Service                    | Requirement(s)    |
 |----------------------------|-------------------|
-| `/ChatGpt_API/chatgpt`          | `text: summarize the paper "The War on Drugs and HIV/AIDS How the Criminalization of Drug Use Fuels the Global Pandemic"`|
+| `/ChatGpt_API/chatgpt`          | `text: summarize the paper "The War on Drugs and HIV/AIDS How the Criminalization of Drug Use Fuels the Global Pandemic", language: "en"`|
 
 
 ## Output Demo  (Example)
